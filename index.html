@@ -5,6 +5,20 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.googleapis.com">
+  <script>
+    function checkDevice() {
+      const isMobile = window.innerWidth <= 1250;
+      const currentPage = window.location.pathname;
+  
+      if (isMobile && !currentPage.includes("mobile.html")) {
+        window.location.href = "mobile.html";
+      } else if (!isMobile && !currentPage.includes("index.html")) {
+        window.location.href = "index.html";
+      }
+    }
+  
+    setInterval(checkDevice, 500);
+  </script>
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Libre+Caslon+Display&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap" rel="stylesheet">
   <title>Swiss</title>

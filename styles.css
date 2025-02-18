@@ -437,3 +437,10 @@ a {
 .flex3 a:hover::after {
   transform: scaleX(1);
 }
+
+#abt2 {
+  font-family: DM Sans, serif;
+  font-weight: bold;
+  color: #FF5D31;
+  font-size: 30pt;
+}
