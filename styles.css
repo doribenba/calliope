@@ -1,6 +1,7 @@
 body {
     background-color: rgb(29, 29, 29);
     color: #DCDCDC;
+    overflow-x: hidden;
     font-size: xx-large;
   }
 
