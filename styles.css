@@ -14,14 +14,6 @@ main {
     vertical-align: middle;
   }
 
-#open {
-    transition: top 0.3s ease-in-out;
-  }
-
-#open:hover {
-    color: #DCDCDC;
-}
-
 .nav-wrapper {
     position: absolute;
     width: 100%;
